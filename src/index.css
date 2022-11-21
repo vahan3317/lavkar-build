@@ -1,0 +1,45 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+ background-color: #F3F3F3;
+ background-image: url("./assets/wh.jpg");
+  
+  background-size:100%;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.heroBg{
+  background: url('./assets/heroFirst.jpg');
+  background-repeat: no-repeat;
+  background-size:100%;
+  
+}
+.col{
+  background: -webkit-linear-gradient(rgb(9, 35, 105), #FFB342);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.shadow{
+  box-shadow: 10px 10px 10px 10px gray;
+}
+.shadowLg{
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.shadowc{
+  box-shadow: 2px 2px 2px 2px rgb(4, 21, 74);
+}
+.shadowL{
+  box-shadow: 1px 1px 1px 1px rgb(228, 230, 234);
+}
+.bgs{
+  background-color: #F3F3F3;
+ background-image: url("./assets/wh.jpg");
+  
+  background-size:100%;
+  
+}
